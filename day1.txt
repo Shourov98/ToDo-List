@@ -62,3 +62,11 @@ git commit -m "message"
 **** To stage and commit at the same time 
 
 git add . && git commit -m "message"
+
+
+git reset --soft HEAD^ [To uncommit and staying as tracked]
+
+git reset HEAD^ [To uncommit and also untracked staying as working directory]
+
+git reset --hard HEAD^ [To fully clean that commited file from everywhere]
+
