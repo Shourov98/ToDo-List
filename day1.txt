@@ -1,0 +1,64 @@
+
+
+
+
+
+--------------------------------
+	Cleaning cmd screen
+--------------------------------
+
+ctrl+l (Press)
+
+git status [for checking git status of that directory]
+
+
+-------------------------------
+	git initializing
+-------------------------------
+
+git init
+
+
+------------------------------------------
+	git staging and unstaging
+------------------------------------------
+
+git add filename
+
+git add . [stage all changed files of directoriy]
+
+git add -A [stage all changed files of directories and sub-directories]
+
+git add *.(file-extension) [ stage all file with that extension on that directory]
+
+git add **/*.(file-extension) [stage all file with that extension on that directory and sub-directory]
+
+---------------------------------------------------
+	Restoring to its previous version
+---------------------------------------------------
+
+git restore filename
+
+-------------------------------------
+	 Unstaging
+-------------------------------------
+
+git rm --cached filename
+
+---------------------------------------------
+	Finding difference of versions
+---------------------------------------------
+
+git diff 
+
+
+
+-----------------------------------------
+	Git Commit & Uncommit
+-----------------------------------------
+
+git commit -m "message"
+
+**** To stage and commit at the same time 
+
+git add . && git commit -m "message"
